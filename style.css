@@ -1,0 +1,14 @@
+*{box-sizing:border-box;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial}
+body{margin:0;padding:16px;background:#f6f7fb;color:#111}
+header{margin-bottom:12px}
+h1{margin:0;font-size:1.6rem}
+#add{display:flex;gap:8px;align-items:center;margin-bottom:12px}
+#task-input{flex:1;padding:8px;border:1px solid #ddd;border-radius:6px}
+button{padding:8px 12px;border-radius:6px;border:0;background:#2b6cb0;color:white;cursor:pointer}
+button:active{transform:translateY(1px)}
+#task-list{list-style:none;padding:0;margin:0}
+.task{display:flex;align-items:center;justify-content:space-between;padding:8px;background:white;margin-bottom:8px;border-radius:8px;border:1px solid #e6e9f0}
+.task-left{display:flex;align-items:center;gap:10px}
+.task-title{font-weight:600}
+.small{font-size:0.85rem;color:#555;margin-left:8px}
+footer{margin-top:14px;color:#666}
